@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">cur3_ex1</string>
+    <string name="app_name">Task_1</string>
+    <string name="hello_text">do you want to see the cat?</string>
+    <string name="yes_button">yes</string>
 </resources>
