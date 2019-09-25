@@ -11,5 +11,15 @@
     <string name="enter_field">Make some text</string>
     <string name="first_text">Up Me!</string>
     <string name="second_text">Ok, now close me!</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hello world</string>
+    <string name="nav_header_subtitle">St.Petersburg</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_progress">Show progress</string>
+    <string name="hide_progress">Hide progress</string>
+    <string name="add_progress">Add Progress</string>
 
 </resources>

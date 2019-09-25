@@ -14,5 +14,46 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:indeterminate="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:max="100"
+            android:progress="0"/>
+
+        <Button
+            android:id="@+id/show_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_progress"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/hide_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hide_progress"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_progress"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
 </android.support.design.widget.CoordinatorLayout>
