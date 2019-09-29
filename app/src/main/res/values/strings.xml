@@ -21,5 +21,7 @@
     <string name="show_progress">Show progress</string>
     <string name="hide_progress">Hide progress</string>
     <string name="add_progress">Add Progress</string>
-
+    <string name="fab_behavior_name">com.example.cur3_ex1.FAB_Hide_on_Scroll</string>
+    <string name="big_text">
+    </string>
 </resources>
